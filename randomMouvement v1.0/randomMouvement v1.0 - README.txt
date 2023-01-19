@@ -1,7 +1,0 @@
-Random Mouvement v1.0
-
-This preset allows you to automatically move a layer that is a loop - a rain impact for example - at the end of the animation.
-
-The preset adds 5 sliders to your layers and an expression on the position parameter of the selected layers.
-
-You have to set the coordinates inside which the layer is supposed to move and the length of your loop.
