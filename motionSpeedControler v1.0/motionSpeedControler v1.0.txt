@@ -1,0 +1,15 @@
+MotionSpeedControler v1.0
+
+This preset gives you an easier way to control an evolution for any property.
+
+The preset adds 1 slider to your layers and an expression on the position parameter of the selected layers.
+
+By default, the expression is set to move on the x axis of a 2 dimension parameter. If you need to change that go to line 8 and modify.
+	• Set for a x movement:
+		result += [ speed.valueAtTime( framesToTime( i ) ) , 0 ];
+		
+	• Set for a y movement:
+		result += [ 0 , speed.valueAtTime( framesToTime( i ) ) ];
+		
+	• Set for a one dimension parameter ( like rotation ):
+		result += speed.valueAtTime( framesToTime( i ) );
